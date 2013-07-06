@@ -5,7 +5,7 @@
 package doublelinkedlist;
 
 /**
- *
+ *New version
  * @author Kcap
  */
 public class DoubleLinkedList<T> {
