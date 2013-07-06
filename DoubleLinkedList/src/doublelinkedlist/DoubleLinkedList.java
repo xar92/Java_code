@@ -6,10 +6,11 @@ package doublelinkedlist;
 
 /**
  *New version
+ * 
  * @author Kcap
  */
 public class DoubleLinkedList<T> {
-
+    private int justForFun_;
     private int count_;
     private ListItem<T> begin_;
     private ListItem<T> sentinel_;
