@@ -38,7 +38,7 @@ public class DoubleLinkedList<T> {
     }
 
     public void insertBegin(int key, T data) {
-        ListItem<T> newElem = new ListItem(key, data);
+        ListItem<T> newElem = new ListItem<>(key, data);
         newElem.setNext(begin_);
         begin_.setPrev(newElem);
         begin_ = newElem;
@@ -120,7 +120,7 @@ public class DoubleLinkedList<T> {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        DoubleLinkedList<Integer> list = new DoubleLinkedList();
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         for (int i = 0; i < 10; i++) {
             list.insertBegin(i, i * 10);
         }
